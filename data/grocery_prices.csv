@@ -1,0 +1,36 @@
+Product,Category,Blinkit Price,Blinkit Delivery,Zepto Price,Zepto Delivery,Instamart Price,Instamart Delivery,BigBasket Price,BigBasket Delivery,Rating
+Milk,Dairy,30,17,28,13,32,24,39,22,4.7
+Bread,Bakery,311,17,307,22,299,17,313,38,4.8
+Eggs,Dairy,91,10,96,24,85,25,91,29,4.7
+Butter,Dairy,134,15,143,24,152,10,134,39,5.0
+Cheese,Dairy,233,13,236,23,241,21,238,42,4.3
+Rice,Staples,382,13,387,23,389,19,385,33,4.7
+Wheat Flour,Staples,393,16,384,21,377,16,373,35,4.4
+Sugar,Staples,200,15,197,14,189,18,200,33,4.8
+Salt,Staples,123,10,127,11,140,13,131,23,4.5
+Cooking Oil,Staples,334,11,333,11,353,19,351,41,4.0
+Tomato,Vegetables,45,12,32,18,21,24,30,27,4.8
+Potato,Vegetables,269,14,261,18,260,22,268,27,4.4
+Onion,Vegetables,323,18,338,13,319,18,337,44,4.0
+Carrot,Vegetables,86,14,85,21,115,21,111,27,4.4
+Capsicum,Vegetables,282,18,260,12,270,21,258,42,4.4
+Apple,Fruits,387,10,384,19,387,13,376,36,4.2
+Banana,Fruits,194,12,172,13,184,25,200,35,4.7
+Orange,Fruits,313,11,303,23,311,10,315,34,4.1
+Mango,Fruits,180,17,178,11,191,16,181,22,4.8
+Grapes,Fruits,18,10,34,22,31,20,43,26,4.3
+Biscuits,Snacks,200,20,201,24,187,15,200,42,4.3
+Chips,Snacks,58,19,72,14,63,25,72,39,4.4
+Chocolate,Snacks,117,15,120,20,127,21,114,44,5.0
+Noodles,Snacks,179,19,181,21,185,11,195,32,4.2
+Pasta,Snacks,123,12,122,24,112,13,129,27,4.7
+Shampoo,Personal Care,243,14,257,18,257,15,230,30,4.1
+Soap,Personal Care,314,10,316,22,309,20,308,40,5.0
+Toothpaste,Personal Care,51,10,43,20,48,17,44,45,4.3
+Face Wash,Personal Care,283,15,285,23,283,21,277,25,4.2
+Body Lotion,Personal Care,21,15,12,17,19,18,40,21,4.1
+Detergent,Cleaning,318,16,326,25,340,18,343,24,5.0
+Floor Cleaner,Cleaning,230,14,218,23,232,10,220,29,4.7
+Dishwash Liquid,Cleaning,51,13,70,19,46,24,58,30,4.3
+Garbage Bags,Cleaning,233,16,260,11,248,24,231,25,4.6
+Toilet Cleaner,Cleaning,149,18,140,22,146,21,147,20,4.9
