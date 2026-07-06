@@ -49,7 +49,7 @@ BasketBrain solves this by comparing grocery prices across multiple quick-commer
 ![AI](screenshots/recommendation.png)
 
 ### AI Analysis
-![AI](screenshots/gemini ai analysis.png)
+![AI](screenshots/gemini_ai_analysis.png)
 
 
 ### Smart Scheduler
