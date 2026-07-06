@@ -40,23 +40,23 @@ BasketBrain solves this by comparing grocery prices across multiple quick-commer
 ## 📸 Screenshots
 
 ### Home Screen
-![Home](screenshots/home.png)
+![Home](screenshots/home.PNG)
 
 ### Store Comparison
-![Comparison](screenshots/basket_comparison.png)
+![Comparison](screenshots/basket_comparison.PNG)
 
 ### AI Recommendation
-![AI](screenshots/recommendation.png)
+![AI](screenshots/recommendation.PNG)
 
 ### AI Analysis
-![AI](screenshots/gemini_ai_analysis.png)
+![AI](screenshots/gemini_ai_analysis.PNG)
 
 
 ### Smart Scheduler
-![Scheduler](screenshots/scheduler.png)
+![Scheduler](screenshots/scheduler.PNG)
 
 ### Basket Cost Comparison
-![Chart](screenshots/cost_chart.png)
+![Chart](screenshots/cost_chart.PNG)
 
 ```
 screenshots/
