@@ -4,6 +4,15 @@
 
 BasketBrain helps users compare grocery prices across multiple quick-commerce platforms and recommends the best shopping option using **Google Gemini AI**.
 
+Users often:
+
+- Pay more than necessary
+- Don't know which platform is cheapest
+- Ignore delivery time differences
+- Have no intelligent shopping guidance
+
+BasketBrain solves this by comparing grocery prices across multiple quick-commerce platforms, recommending the best platform, and generating AI-powered shopping insights.
+
 ---
 
 ## ✨ Features
@@ -14,34 +23,40 @@ BasketBrain helps users compare grocery prices across multiple quick-commerce pl
 - 🤖 AI-powered shopping recommendation (Gemini)
 - 📊 Interactive price comparison chart
 - ⚡ Clean Streamlit interface
+- ✅ Smart reminder concept for future price re-analysis
 
 ---
 
-## 🖥️ Demo
+# 🤖 How BasketBrain Works
 
-Users simply enter a grocery list:
-
-```
-Milk
-Bread
-Rice
-Eggs
-```
-
-BasketBrain automatically:
-
-- Searches available products
-- Calculates basket cost
-- Compares Blinkit, Zepto, Instamart and BigBasket
-- Finds the cheapest store
-- Estimates delivery time
-- Generates an AI shopping recommendation using Gemini
-
----
+1. Enter your grocery list.
+2. BasketBrain searches the available dataset.
+3. Prices are compared across all supported stores.
+4. Delivery times are analyzed.
+5. The cheapest store is selected.
+6. Gemini generates personalized shopping insights.
+7. Users can optionally schedule their basket for future purchases.
 
 ## 📸 Screenshots
 
-*(Add screenshots later)*
+### Home Screen
+![Home](screenshots/home.png)
+
+### Store Comparison
+![Comparison](screenshots/basket_comparison.png)
+
+### AI Recommendation
+![AI](screenshots/recommendation.png)
+
+### AI Analysis
+![AI](screenshots/gemini ai analysis.png)
+
+
+### Smart Scheduler
+![Scheduler](screenshots/scheduler.png)
+
+### Basket Cost Comparison
+![Chart](screenshots/cost_chart.png)
 
 ```
 screenshots/
@@ -60,24 +75,32 @@ screenshots/
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 BasketBrain/
 │
-├── assets/
 ├── data/
 │   └── grocery_prices.csv
-├── screenshots/
-├── notebooks/
 │
 ├── main.py
 ├── optimizer.py
 ├── gemini_helper.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
+└── screenshots/
+
 ```
+
+# 🚀 Future Scope
+
+- OCR bill scanning
+- Real-time grocery APIs
+- Live price tracking
+- Smart notifications
+- Cart history
+- Personalized recommendations
+- Shopping analytics dashboard
 
 ---
 
@@ -138,18 +161,6 @@ BasketBrain uses **Google Gemini 2.5 Flash** to generate:
 - Savings tips
 - Delivery comparison
 - Overall basket analysis
-
----
-
-## 🌟 Future Improvements
-
-- Barcode scanner
-- OCR bill reader
-- Voice shopping
-- Live APIs from grocery platforms
-- Location-aware recommendations
-- Price history tracking
-- Personalized shopping preferences
 
 ---
 

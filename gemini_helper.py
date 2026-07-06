@@ -11,24 +11,54 @@ client = genai.Client(
 def get_ai_recommendation(filtered_df, totals, delivery):
 
     prompt = f"""
-You are BasketBrain.
+You are BasketBrain, an AI grocery shopping assistant.
+
+Analyze the grocery basket below.
 
 Products:
 {filtered_df.to_string(index=False)}
 
-Prices:
+Store Prices:
 {totals}
 
 Delivery:
 {delivery}
 
-Recommend the best store.
-Keep it under 120 words.
+Generate:
+
+• Cheapest store
+
+• Fastest store
+
+• Money saved
+
+• Trade-offs
+
+• Shopping insight
+
+Important:
+Never tell the user what they should do.
+Only explain the available options.
+
+Maximum 120 words.
+Friendly tone.
 """
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
+        return response.text
+    
+    except Exception:
+        return """
+    ### BasketBrain AI Analysis
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-    )
+    • Cheapest store has been selected based on your basket.
 
-    return response.text
+    • Delivery times have been compared.
+
+    • The recommendation engine is temporarily unavailable because the Gemini API is experiencing high demand.
+
+    Your basket comparison still works correctly.
+    """
